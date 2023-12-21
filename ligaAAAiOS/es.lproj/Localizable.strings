@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  ligaAAAiOS
+
+  Created by IGNACIO HERNAIZ IZQUIERDO on 21/12/23.
+  
+*/
+"home" = "Inicio";
+"calendar" = "Calendario";
+"statistics" = "Estadísticas";
+"info" = "Info";

@@ -1,5 +1,5 @@
 //
-//  SwiftUIView.swift
+//  StadisticsView.swift
 //  ligaAAAiOS
 //
 //  Created by IGNACIO HERNAIZ IZQUIERDO on 21/12/23.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct StatisticsView: View {
     var body: some View {
         VStack {
-            Text("home")
+            Text("statistics")
         }
     }
 }
 
 #Preview {
-    HomeView()
+    StatisticsView()
 }
