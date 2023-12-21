@@ -8,18 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		39BA3FD82B3443F3004989E5 /* ligaAAAiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BA3FD72B3443F3004989E5 /* ligaAAAiOSApp.swift */; };
-		39BA3FDA2B3443F3004989E5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BA3FD92B3443F3004989E5 /* HomeView.swift */; };
+		39BA3FDA2B3443F3004989E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BA3FD92B3443F3004989E5 /* ContentView.swift */; };
 		39BA3FDC2B3443F4004989E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39BA3FDB2B3443F4004989E5 /* Assets.xcassets */; };
 		39BA3FE02B3443F4004989E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39BA3FDF2B3443F4004989E5 /* Preview Assets.xcassets */; };
+		39BA3FEA2B3451B6004989E5 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BA3FE92B3451B6004989E5 /* CalendarView.swift */; };
+		39BA3FEC2B345448004989E5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BA3FEB2B345448004989E5 /* HomeView.swift */; };
+		39BA3FEF2B345B50004989E5 /* UITabBarControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BA3FEE2B345B50004989E5 /* UITabBarControllerExtension.swift */; };
+		39BA3FF12B345BFE004989E5 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BA3FF02B345BFE004989E5 /* StatisticsView.swift */; };
+		39BA3FF32B345C1A004989E5 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BA3FF22B345C1A004989E5 /* InfoView.swift */; };
+		39BA3FF62B345EB5004989E5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39BA3FF82B345EB5004989E5 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		39BA3FD42B3443F3004989E5 /* ligaAAAiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ligaAAAiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BA3FD72B3443F3004989E5 /* ligaAAAiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ligaAAAiOSApp.swift; sourceTree = "<group>"; };
-		39BA3FD92B3443F3004989E5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		39BA3FD92B3443F3004989E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		39BA3FDB2B3443F4004989E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39BA3FDD2B3443F4004989E5 /* ligaAAAiOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ligaAAAiOS.entitlements; sourceTree = "<group>"; };
 		39BA3FDF2B3443F4004989E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39BA3FE92B3451B6004989E5 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		39BA3FEB2B345448004989E5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		39BA3FEE2B345B50004989E5 /* UITabBarControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarControllerExtension.swift; sourceTree = "<group>"; };
+		39BA3FF02B345BFE004989E5 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		39BA3FF22B345C1A004989E5 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		39BA3FF72B345EB5004989E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		39BA3FF92B345EB9004989E5 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +65,7 @@
 		39BA3FD62B3443F3004989E5 /* ligaAAAiOS */ = {
 			isa = PBXGroup;
 			children = (
+				39BA3FED2B345B2C004989E5 /* Extensions */,
 				39BA3FE82B344936004989E5 /* ViewModel */,
 				39BA3FE72B34492F004989E5 /* Views */,
 				39BA3FE62B344925004989E5 /* Model */,
@@ -59,6 +73,7 @@
 				39BA3FDB2B3443F4004989E5 /* Assets.xcassets */,
 				39BA3FDD2B3443F4004989E5 /* ligaAAAiOS.entitlements */,
 				39BA3FDE2B3443F4004989E5 /* Preview Content */,
+				39BA3FF82B345EB5004989E5 /* Localizable.strings */,
 			);
 			path = ligaAAAiOS;
 			sourceTree = "<group>";
@@ -81,7 +96,11 @@
 		39BA3FE72B34492F004989E5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				39BA3FD92B3443F3004989E5 /* HomeView.swift */,
+				39BA3FD92B3443F3004989E5 /* ContentView.swift */,
+				39BA3FE92B3451B6004989E5 /* CalendarView.swift */,
+				39BA3FEB2B345448004989E5 /* HomeView.swift */,
+				39BA3FF02B345BFE004989E5 /* StatisticsView.swift */,
+				39BA3FF22B345C1A004989E5 /* InfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -91,6 +110,14 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		39BA3FED2B345B2C004989E5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				39BA3FEE2B345B50004989E5 /* UITabBarControllerExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +161,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
 				Base,
 			);
 			mainGroup = 39BA3FCB2B3443F3004989E5;
@@ -152,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39BA3FE02B3443F4004989E5 /* Preview Assets.xcassets in Resources */,
+				39BA3FF62B345EB5004989E5 /* Localizable.strings in Resources */,
 				39BA3FDC2B3443F4004989E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,12 +192,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39BA3FDA2B3443F3004989E5 /* HomeView.swift in Sources */,
+				39BA3FDA2B3443F3004989E5 /* ContentView.swift in Sources */,
 				39BA3FD82B3443F3004989E5 /* ligaAAAiOSApp.swift in Sources */,
+				39BA3FEF2B345B50004989E5 /* UITabBarControllerExtension.swift in Sources */,
+				39BA3FEC2B345448004989E5 /* HomeView.swift in Sources */,
+				39BA3FEA2B3451B6004989E5 /* CalendarView.swift in Sources */,
+				39BA3FF12B345BFE004989E5 /* StatisticsView.swift in Sources */,
+				39BA3FF32B345C1A004989E5 /* InfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39BA3FF82B345EB5004989E5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39BA3FF72B345EB5004989E5 /* en */,
+				39BA3FF92B345EB9004989E5 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		39BA3FE12B3443F4004989E5 /* Debug */ = {
@@ -306,9 +352,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
@@ -316,10 +361,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ligaAAAiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -344,9 +390,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
@@ -354,10 +399,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ligaAAAiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
