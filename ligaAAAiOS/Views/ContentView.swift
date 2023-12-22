@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var ligaViewModel: LigaViewModel = LigaViewModel()
+    
     var body: some View {
         TabView {
             HomeView()
                 .tabItem {
                     Label("home", systemImage: "house.fill")
                 }
+                .environmentObject(ligaViewModel)
             
             CalendarView()
                 .tabItem {

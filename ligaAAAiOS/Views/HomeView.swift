@@ -8,9 +8,17 @@
 import SwiftUI
 
 struct HomeView: View {
+    @EnvironmentObject var ligaViewModel: LigaViewModel
+    
     var body: some View {
         VStack {
-            Text("home")
+            ForEach(ligaViewModel.user) { user in
+                Text("Numero usuario \(user.user)")
+                Text("Nombre usuario \(user.name)")
+            }
+        }
+        .task {
+            ligaViewModel.getUser()
         }
     }
 }
